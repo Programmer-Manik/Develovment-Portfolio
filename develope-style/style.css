@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    font-family: 'Anybody', cursive;
+}
+
+/* header and  navigation styles */
+.header{
+    background-color:#FFFFFF;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position:bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 165px 10px 150px;
+}
+nav ul{
+    display: flex;
+    align-items:center; 
+}
+nav li{
+    list-style:none;
+    margin-left:50px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.text-color{
+    color:#FD6E0A
+}
+
+.bnt-parmary{
+    color: #FFFFFF;
+    height:64px;
+    padding:18px 35px;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius:10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;    
+}
+
+/* hedare baner style */
+
+.benar{
+    margin: 0 20px  0 150px;
+    display: flex;
+    align-items: center;
+}
+.benar-title{
+    margin-right:120px;
+}
+.benar-sub-title{
+    color: #474747;
+    height: 61px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight:700;
+    font-size: 40px;
+}
+.benar-title-mary{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size:60px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+.benar-title p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    height:px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.benar-button{
+    height:64px;
+    background-color: #FD6E0A;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding:0 18px;
+}
+
+
+
+
+
